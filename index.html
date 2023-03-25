@@ -1,2 +1,60 @@
 <!DOCTYPE html>
-<!-- cambio de nueva rama -->
+<html lang="en">
+<head>
+    <title>VideoTrends</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Guia de Ejercicios N1">
+    <!-- <meta name="keywords" content="HTML, CSS, JavaScript"> -->
+    <meta name="author" content="Mirko Czajkowski">
+    <meta http-equiv="refresh" content="1800">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/playicon.png" alt="Imagen título: logo play">
+            </a>
+            <a href="index.html">
+                <h1>VideoTrends</h1>
+            </a>
+        </div>
+        <p>La <span class="negrita">biblioteca</span> de tus pelis!</p>
+    </header>
+
+    <nav>
+        <a href="">Crear una Cuenta</a>
+        <span> | </span>
+        <a href="">Olvide mi contraseña</a>
+        <span> | </span>
+        <a href="">Acerca de Nosotros</a>
+    </nav>
+
+    <section id="section_principal">
+        <img id="img_cinema" src="img/cinema.png" alt="Imagen cinema">
+
+        <section id="section_log_sign">
+            <form id="form_log" action="/formulario" method="POST">
+                <input type="email" id="email" name="email" placeholder="direccion@email.com">
+                <label for="email">E-mail</label>
+                <input type="password" id="pass" name="pass" placeholder="contraseña">
+                <label for="pass">Contraseña</label>
+                <button type="submit" id="btn_ini_ses">INICIAR SESIÓN</button>
+            </form>
+            <div id="sign_in">
+                <button onclick="">CREAR UNA CUENTA</button>
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <a href="" target="_blank">Trakt API</a>
+        <span> - </span>
+        <a href="https://ugd.edu.ar/es/" target="_blank">U.G.D.</a>
+        <span> - </span>
+        <a href="https://campusvirtual.ugd.edu.ar/moodle/" target="_blank">Campus Virtual</a>
+    </footer>
+</body>
+</html>
