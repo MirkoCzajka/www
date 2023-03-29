@@ -1,5 +1,11 @@
 header{
     text-align: center;
+    margin: 50px 0;
+}
+nav{
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: solid black 1px;
 }
 nav a:hover{
     color: red;
@@ -8,11 +14,60 @@ nav a:hover{
 .negrita{
     font-weight: bold;
 }
+#ref{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: small;
+}
+#btn_crear{
+    padding: 10px 14px;
+    margin-top: 15px;
+    align-self: center;
+}
 
 #section_principal{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
+#section_datos{
+    display: flex;
+    flex-direction: column;
+}
+#section_banner{
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    /* bottom: auto; */
+    max-width: 300px;
+    padding-left: 30px;
+}
+.datos{
+    display: flex;
+    align-items: baseline;
+    margin-left: 15px;
+}
+.etiquetas{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.etiquetas label{
+    height: 20px;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+#estatura input{
+    width: 86px;
+}
+/* .datos label{
+    background-color: aqua;
+} */
 
 footer{
     display: flex;
