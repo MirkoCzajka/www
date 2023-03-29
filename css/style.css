@@ -42,8 +42,8 @@ nav{
 nav a{
     margin: 0px 10px;
 }
-footer a:hover{
-    color:yellow;
+nav a:hover{
+    color:red;
 }
 
 #img_cinema{

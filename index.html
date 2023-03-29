@@ -9,6 +9,7 @@
     <meta http-equiv="refresh" content="1800">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -24,7 +25,7 @@
     </header>
 
     <nav>
-        <a href="">Crear una Cuenta</a>
+        <a href="register.html">Crear una Cuenta</a>
         <span> | </span>
         <a href="">Olvide mi contraseña</a>
         <span> | </span>
@@ -36,14 +37,16 @@
 
         <section id="section_log_sign">
             <form id="form_log" action="/formulario" method="POST">
-                <input type="email" id="email" name="email" placeholder="direccion@email.com">
+                <input type="email" id="email" name="email" placeholder="Direccion@email.com">
                 <label for="email">E-mail</label>
-                <input type="password" id="pass" name="pass" placeholder="contraseña">
+                <input type="password" id="pass" name="pass" placeholder="Contraseña">
                 <label for="pass">Contraseña</label>
                 <button type="submit" id="btn_ini_ses">INICIAR SESIÓN</button>
             </form>
             <div id="sign_in">
-                <button onclick="">CREAR UNA CUENTA</button>
+                <a href="register.html">
+                    <button>CREAR UNA CUENTA</button>
+                </a>
             </div>
         </section>
 

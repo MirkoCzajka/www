@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+}
+nav a:hover{
+    color: red;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+#section_principal{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    background-color: black;
+}
+footer span{
+    color: white;
+}
+footer a{
+    margin: 0px 10px;
+}
+footer a:link{
+    color:white;
+}
+footer a:visited{
+    color: silver;
+}
+footer a:hover{
+    color: yellow;
+}
