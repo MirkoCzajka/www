@@ -28,19 +28,23 @@ nav a:hover{
 
 #section_principal{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #section_datos{
     display: flex;
     flex-direction: column;
 }
-#section_banner{
-    /* position: -webkit-sticky; */
+#aside_banner{
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* bottom: auto; */
+    /* background-color: aqua; */
     max-width: 300px;
     padding-left: 30px;
+}
+#aside_banner img{
+    width: 275px;
+    height: 500px;
 }
 .datos{
     display: flex;
