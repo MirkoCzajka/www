@@ -23,7 +23,8 @@ nav a:hover{
 #btn_crear{
     padding: 10px 14px;
     margin-top: 15px;
-    align-self: center;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 #section_principal{
